@@ -1,8 +1,13 @@
+import Hero from "../components/hero"
 
 function HomeSection() {
 
     return (
-        <h>HOME</h>
+        <>
+            <section style={{marginTop: 0}}>
+                <Hero></Hero>
+            </section>
+        </>
     )
 
 }

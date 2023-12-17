@@ -1,0 +1,21 @@
+.content {
+    background-image: url("../assets/background/bg-main-dark-1440w.jpg"); /* Set the image path */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Set the height of the container */
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .profile img {
+      transition: 0.5s;
+        width: 300px;
+        /* background-color: aliceblue; */
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .my-name {
+        display: none;
+    }
+}
