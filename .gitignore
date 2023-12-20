@@ -5,12 +5,13 @@
 /.pnp
 .pnp.js
 
+src/data/dataSet.jsx
+
 # testing
 /coverage
 
 # production
 /build
-/src/data/
 
 # misc
 .DS_Store
