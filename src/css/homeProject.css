@@ -1,30 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
-
-:root {
-    --back-ground-1: #15091b;
-    --back-ground-2: #1c191e79;
-
-    --white-color-1: white;
-    --white-color-2: rgb(198, 198, 198);
-    --white-color-3: rgba(223, 223, 223, 0.225);
-
-    --primary-color-1: purple;
-    --primary-color-2: rgba(188, 2, 188, 0.86);
-    --font-family: 'Roboto Condensed', sans-serif;
-
-    --nav-height: 8vh;
+.home-project-content {
+    display: grid;
+    grid-template: auto 1fr / auto 1fr;
+    height: 17rem;
+    border: 1px solid var(--white-color-3);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 500;
 }
 
-.home-project-content img{
-    min-width: 500px;
-    max-height: 300px;
-    /* min-width: 500px; */
-    font-family: var(--font-family);
+.home-project-content:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 10px white;
+}
+
+.home-project-content img {
+    grid-area: 1 / 1 / 3 / 3;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-project-content span {
+    transition: 0.2s;
+    background: var(--linear-background-1);
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 1;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: var(--white-color-1);
+    border-radius: 15px;
 }
 
 
 @media only screen and (max-width: 800px) {
-    .home-project-content img{
+    .home-project-content img {
         width: 100%;
+    }
+
+    .home-project-content {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-project-content span {
+        transition: 0.2s;
+        font-size: 15px;
     }
 }

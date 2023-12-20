@@ -19,6 +19,7 @@
 .cl-hi,
 .cl-what {
   font-size: 25px;
+  color: var(--sub-title-color);
 }
 
 .cl-name {

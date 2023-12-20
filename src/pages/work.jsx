@@ -1,4 +1,4 @@
-import "../css/hero.css"
+import "../css/works.css"
 function Work(propos) {
 
     const styles = {
@@ -21,7 +21,7 @@ function Work(propos) {
     };
 
     return (
-        <div className="content" style={styles.content}>
+        <div className="works" style={styles.content}>
             <h1>My work shop is here</h1>
         </div>
     )

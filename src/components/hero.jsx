@@ -1,20 +1,17 @@
 import "../css/hero.css"
-function Hero() {
+function Hero(props) {
 
     const styles = {
         content: {
             with: "100%",
             display: "flex",
-            // paddingLeft: 50,
-            // paddingRight: 50,
-            marginTop: 20,
         },
         accroche: {
             display: "flex",
             flex: 2,
             flexDirection: "column",
             justifyContent: "center",
-            fontFamily: "Roboto Condensed"
+            fontFamily: "var(--font-family)"
         },
 
         profile: {
@@ -28,12 +25,12 @@ function Hero() {
         <>
             <div className="content" style={styles.content}>
                 <div style={styles.accroche} className="accroche">
-                    <span className="cl-hi" style={{ color: "rgb(157, 179, 187)" }}>Salut,</span>
-                    <span className="cl-name" style={{ color: "white" }}>Je m'appelle BAMOGO Clément</span>
-                    <span className="cl-what" style={{ color: "rgb(157, 179, 187)" }}>Je suis élève ingénieur en Supply Chain Management basé au Maroc, à Rabat</span>
+                    <span className="cl-hi" >Salut,</span>
+                    <span className="cl-name" style={{ color: "white" }}>{props.title}</span>
+                    <span className="cl-what" >{props.description}</span>
                 </div>
                 <div style={styles.profile} className="profile">
-                    <img src={require("../assets/profile/profile-1.png")} alt="Mon profile" width={350} />
+                    <img src={props.profile} alt="Mon profile" width={350} />
                 </div>
             </div>
         </>

@@ -1,0 +1,161 @@
+.nav-bar {
+    display: flex;
+    /* transition: 0.2s; */
+    align-items: center;
+    /* background-color: blue; */
+    font-family: var(--font-family);
+    height: var(--nav-height);
+    position: absolute;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-bar svg {
+    transition: 0.2s;
+    color: var(--white-color-1);
+}
+
+.my-name {
+    color: var(--white-color-1);
+    /* margin-left: 50px; */
+    font-size: 25px;
+}
+
+.my-name a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list {
+    transition: 0.5s;
+    width: 35vmax;
+    min-width: 400px;
+    height: 80%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px white;
+    background-color: var(--back-ground-2);
+    margin-left: 100px;
+}
+
+.nav-list ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--white-color-1);
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-list a:hover {
+    transition: 50ms;
+    border-bottom: 5px solid var(--primary-color-1);
+}
+
+.nav-bar svg:hover {
+    color: var(--primary-color-1);
+}
+
+@media only screen and (max-width: 1000px) {
+    .my-name {
+        transition: 0.5s;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .my-name {
+        transition: 0.5s;
+        font-size: 15px;
+    }
+
+    .nav-bar svg {
+        transition: 0.2s;
+        width: 20px;
+    }
+
+    .nav-list a {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .menuToggle {
+        position: absolute;
+        right: 20px;
+        transition: 0.2s;
+        width: 40px;
+        height: 25px;
+        background: url('../assets/icons/menu.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        cursor: pointer;
+    }
+
+    .menuToggle.active {
+        transition: 0.2s;
+        background-image: url('../assets/icons/close.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-origin: center;
+    }
+
+    .nav-list {
+        transition: 0.5s;
+        min-width: 200px;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        height: 100px;
+        width: 100px;
+        height: max-content;
+        border-radius: 30px 0px;
+        /* background-color: rgb(46, 19, 50); */
+    }
+
+    .nav-list ul {
+        transition: 0.5s;
+        display: none;
+    }
+
+    .nav-list ul.active {
+        transition: 0.5s;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+
+    .my-name {
+        /* margin-left: 20px; */
+        font-size: 25px;
+    }
+
+    .nav-bar {
+        /* background-color: green; */
+        /* transition: 0.2s; */
+        padding-left: 20px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        height: max-content;
+        width: 100%;
+    }
+
+    .nav-bar svg {
+        width: 20px;
+    }
+
+
+}

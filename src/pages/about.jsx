@@ -1,3 +1,5 @@
+import "../css/about.css"
+
 function About(propos) {
 
     const styles = {
@@ -21,7 +23,7 @@ function About(propos) {
     };
 
     return (
-        <div className="content" style={styles.content}>
+        <div className="about" style={styles.content}>
             <h1>About me</h1>
         </div>
     )

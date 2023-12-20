@@ -1,21 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap');
-
-:root {
-    --back-ground-1: #15091b;
-    --back-ground-2: #1c191e79;
-
-    --white-color-1: white;
-    --white-color-2: rgb(198, 198, 198);
-
-    --primary-color-1: purple;
-    --primary-color-2: rgba(188, 2, 188, 0.86);
-    --font-family: 'Roboto Condensed', sans-serif;
-
-    /* --nav-height: "80px"; */
-}
 
 .foot-content {
     font-family: var(--font-family);
+    background-color: black;
 }
 
 .items {

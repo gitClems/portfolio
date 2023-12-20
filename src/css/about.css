@@ -1,0 +1,10 @@
+.about {
+    padding-top: var(--page-padding-top);
+    background-image: url("../assets/background/bg-main-dark-1440w.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: var(--font-family);
+    color: var(--white-color-1);
+}
