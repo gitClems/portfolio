@@ -5,7 +5,7 @@ import About from './pages/about';
 import Work from './pages/work';
 import './css/App.css'
 import Navbar from './components/navbar';
-import { person } from './data/dataSet';
+import person from './data/users.json';
 import Footer from './components/footer';
 
 function App() {
@@ -23,7 +23,8 @@ function App() {
         tel={person.tel}
         linkedIn={person.linkedIn}
         gitHub={person.gitHub}
-        >
+        adress={person.adress}
+      >
       </Footer>
     </div>
   );

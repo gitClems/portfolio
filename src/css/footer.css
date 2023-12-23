@@ -18,7 +18,7 @@
 
 .link {
     text-decoration: none;
-    color: rgb(198, 198, 198);
+    color: var(--sub-title-color);
     margin-left: 5px;
 }
 

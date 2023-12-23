@@ -1,0 +1,11 @@
+{
+    "id": 1,
+    "year": "2023",
+    "name": "BAMOGO Clément",
+    "describe": "Elève ingénieur en Supply Chain Management basé au Maroc, à Rabat",
+    "profile": "../assets/profile/profile-1.png",
+    "tel": "+212 6 82 41 90 21",
+    "adress": "Madina Al Irfane Rabat, Maroc",
+    "linkedIn": "https://www.linkedin.com/in/cl%C3%A9ment-bamogo-11ab71228/",
+    "gitHub": "https://github.com/gitClems"
+}

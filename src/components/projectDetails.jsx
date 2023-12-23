@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import "../css/homeProject.css"
-function HomeProject(props) {
+
+function ProjectDetails(props) {
     const styles = {
         content: {
             marginLeft : 5,
@@ -13,7 +13,7 @@ function HomeProject(props) {
     return (
         <>
             <div style={styles.content}>
-                <Link  className="home-project-content" to={'/work'}>
+                <Link  className="details-project-content" >
                     <span style={styles.title}>{props.title}</span>
                     <img style={styles.img} src={props.image} alt="Project 1" />
                 </Link>
@@ -22,4 +22,4 @@ function HomeProject(props) {
     )
 }
 
-export default HomeProject
+export default ProjectDetails
