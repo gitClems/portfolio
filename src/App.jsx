@@ -14,8 +14,8 @@ function App() {
       <Navbar name={person.name} />
       <Routes>
         <Route path='/' index element={<Home />} />
-        <Route path='/work' element={<Work />} />
-        <Route path='/about' element={<About />} />
+        <Route path='./work' element={<Work />} />
+        <Route path='./about' element={<About />} />
       </Routes>
       <Footer
         name={person.name}
