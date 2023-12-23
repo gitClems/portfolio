@@ -22,7 +22,7 @@ function About(propos) {
                         </li>
                         <li className="background-item">
                             2021-2024 : Ecole Nationale d'Informatique et d'Analyse des Systhème de Rabat <br />
-                            <span>Avec mon orientation en Smart Supply Chain an Logistics, j'ai eu cette connaissance de l'informatique décisionnelle, du Business Intelligence et de la gestion des projets ainsi que leur suivi. L'utilisation des outils informatiques pour l'optimisation des processus au seins de l'entreprise est l'une de mes casquettes. En outre, je note cette partie de mon orientation qui est la recherche opérationnelle à travers laquelles un accent est mis sur la résolution des problèmes liés à la Logistiques sont une compétence en cours de développement: l'ulisation des mathématiques et des nouvelles technologies pour l'optimisation de la chaine logistique .</span>
+                            <span>Avec mon orientation en Smart Supply Chain an Logistics, j'ai eu cette connaissance de l'informatique décisionnelle, du Business Intelligence et de la gestion des projets ainsi que leur suivi. L'utilisation des outils informatiques pour l'optimisation des processus au seins de l'entreprise est l'une de mes casquettes. En outre, une partie de mon orientation est la recherche opérationnelle à travers laquelles un accent est mis sur la résolution des problèmes liés à la logistiques: l'ulisation des mathématiques et des nouvelles technologies pour l'optimisation de la chaine logistique .</span>
                         </li>
                     </ul>
                 </div>
