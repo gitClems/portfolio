@@ -11,7 +11,7 @@ src/data/dataSet.jsx
 /coverage
 
 # production
-/build
+#/build
 
 # misc
 .DS_Store
