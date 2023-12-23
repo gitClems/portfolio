@@ -23,8 +23,8 @@ function Navbar(props) {
         <div className='nav-list'>
           <ul id="navBar">
             <li><Link className='nav-btn' to={"/"} onClick={toogleMenu}>Accueil</Link></li>
-            <li><Link className='nav-btn' to={"/work"} onClick={toogleMenu}>Réalisations</Link></li>
-            <li><Link className='nav-btn' to={"/about"} onClick={toogleMenu}>A propos de moi</Link></li>
+            <li><Link className='nav-btn' to={"./work"} onClick={toogleMenu}>Réalisations</Link></li>
+            <li><Link className='nav-btn' to={"./about"} onClick={toogleMenu}>A propos de moi</Link></li>
           </ul>
         </div>
         <div>
