@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto+Condensed:wght@700&display=swap');
+
 .about {
+    transition: 0.2s;
     padding-top: var(--page-padding-top);
     background-image: url("../assets/background/bg-main-dark-1440w.jpg");
     background-size: cover;
@@ -7,4 +10,125 @@
     min-height: 100vh;
     font-family: var(--font-family);
     color: var(--white-color-1);
+}
+
+.about-accroche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-accroche .title {
+    font-size: var(--title-font-size-large);
+    ;
+}
+
+.about-accroche .message {
+    font-size: 25px;
+    text-align: center;
+    color: var(--sub-title-color);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.about-profile img {
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.about-background, .about-skills {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-background span[class='background'], .about-skills span[class='skills']{
+    color: var(--white-color-1);
+    font-size: var(--title-font-size-large);
+    flex: 3;
+    max-width: 350px;
+}
+
+.about-background div, .about-skills div {
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
+    flex: 6;
+}
+
+.about-skills .skills-item {
+    font-size: 20px;
+    color: var(--sub-title-color);
+}
+
+
+.about-background ul, .about-skills ul {
+    max-width: 60vmax;
+}
+
+.background-item span {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--sub-title-color);
+}
+
+@media only screen and (max-width: 800px) {
+
+    .about {
+        transition: 0.2s;
+        padding-top: calc(var(--page-padding-top) + 70px);
+    }
+
+    .about-accroche .title {
+        transition: 0.2s;
+        font-size: var(--title-font-size-small);
+    }
+
+    .about-accroche .message {
+        font-size: 20px;
+    }
+
+    .about-skills, .about-background {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-background span[class='background'], .about-skills span[class='skills'] {
+        font-size: var(--title-font-size-small);
+    }
+
+    .about-background div, .about-skills div {
+        font-size: 20px;
+        width: 100%;
+        font-size: 17px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+
+    .about-accroche .message {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-background, .about-skills {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-background ul {
+        max-width: none;
+    }
 }

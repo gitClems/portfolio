@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Supply Chain Manager",
+        "description": "L'informatique décisionnelle au coeur de la Chaîne d'approvisonnement, rien de mieux pour se mettre dans la course des grands enjeux de ce monde concurrentiel."
+    },
+    {
+        "id": 2,
+        "title": "Business Analyst",
+        "description": "L'esprit d'analyse au seins des processus métiers de votre entreprise. Permettre une prise de décision adéquate face aux risques et maîtriser les activités principales de votre structure."
+    },
+    {
+        "id": 3,
+        "title": "Design Thinking",
+        "description": "Construire vos idées avec une architecture performante et manager votre équipe dans une logique de création de valeur."
+    }
+]

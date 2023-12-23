@@ -42,7 +42,7 @@ export const projects = [
 export const person = {
     year : "2023",
     name : "BAMOGO Clément",
-    describe : "Je suis élève ingénieur en Supply Chain Management basé au Maroc, à Rabat",
+    describe : "Elève ingénieur en Supply Chain Management basé au Maroc, à Rabat",
     profile : require("../assets/profile/profile-1.png"),
     tel : "+212 6 82 41 90 21",
     adress : "Madina Al Irfane Rabat, Maroc",

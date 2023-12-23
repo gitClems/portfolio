@@ -13,7 +13,7 @@
     padding: 20px;
 }
 
-.skills {
+.home .skills {
     transition: 0.5s;
     margin-top: 50px;
     margin-left: 50px;
@@ -38,7 +38,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .skills {
+    .home .skills {
         transition: 0.5s;
         display: flex;
         flex-direction: column;
@@ -57,11 +57,11 @@
 
     .home {
         transition: 0.2s;
-        padding-top: calc(var(--page-padding-top) + 50px);
+        padding-top: calc(var(--page-padding-top) + 70px);
     }
 }
 @media only screen and (max-width: 500px) {
-    .skills {
+    .home .skills {
         transition: 0.5s;
         display: flex;
         flex-direction: column;

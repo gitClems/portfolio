@@ -23,7 +23,7 @@
 }
 
 .cl-name {
-  font-size: 40px;
+  font-size: var(--title-font-size-large);
 }
 
 @media only screen and (max-width: 1000px) {
