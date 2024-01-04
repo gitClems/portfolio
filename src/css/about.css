@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto+Condensed:wght@700&display=swap');
 
 .about {
-    transition: 0.2s;
     padding-top: var(--page-padding-top);
     background-image: url("../assets/background/bg-main-dark-1440w.jpg");
     background-size: cover;
@@ -83,7 +82,6 @@
 @media only screen and (max-width: 800px) {
 
     .about {
-        transition: 0.2s;
         padding-top: calc(var(--page-padding-top) + 70px);
     }
 

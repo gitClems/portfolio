@@ -1,5 +1,4 @@
 .home {
-    transition: 0.2s;
     padding-top: var(--page-padding-top);
     background-image: url("../assets/background/bg-main-dark-1440w.jpg");
     background-size: cover;
@@ -62,7 +61,6 @@
 }
 @media only screen and (max-width: 500px) {
     .home .skills {
-        transition: 0.5s;
         display: flex;
         flex-direction: column;
         margin-left: 10px;
